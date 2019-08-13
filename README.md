@@ -1,6 +1,20 @@
-CODE REVIEW
+# Project 2
+---
+## Files
 
-코드 리뷰 실습을 위한 저장소 입니다.
+- `goods.cc`, `goods.h` : Goods class Source code
 
-목표
-- 예제 코드를 기반으로 코드 리뷰 절차를 실습합니다.
+- `shopping.cc`, `shopping.h` : Shopping class Source code
+
+- `main.cc` : Usage for Shopping and Goods class
+
+- `shopping_test.cc` : Unittest codes for Shopping and Goods class 
+                       using GoogleTest Library
+
+## Install
+
+```
+# cmake CMakeLists.txt
+# make
+# ./main
+```
